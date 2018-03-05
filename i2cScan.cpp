@@ -7,6 +7,8 @@ void i2cScan(){
       int nDevices = 0;
       static int passe=0;
      
+	 //comentaire
+	 
       SerialScan.println("\n\nI2C Scanner"); 
       SerialScan.print("   passe "); SerialScan.print(++passe);
       SerialScan.print("\n ");
